@@ -23,6 +23,13 @@
 		17FDBD3E1FDF7A0D00A13252 /* UINavigationBar+Awesome.m in Sources */ = {isa = PBXBuildFile; fileRef = 17FDBD251FDF76A800A13252 /* UINavigationBar+Awesome.m */; };
 		17FDBD421FDF7A7F00A13252 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17FDBD411FDF7A7F00A13252 /* LoginViewController.m */; };
 		17FDBD441FDF7A9A00A13252 /* LoginViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17FDBD431FDF7A9A00A13252 /* LoginViewController.storyboard */; };
+		17FDBD4E1FDF7E1C00A13252 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17FDBD4D1FDF7E1C00A13252 /* WebViewController.m */; };
+		17FDBD501FDF7E2700A13252 /* WebViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17FDBD4F1FDF7E2700A13252 /* WebViewController.storyboard */; };
+		17FDBD511FDF7EFF00A13252 /* httpConversion.m in Sources */ = {isa = PBXBuildFile; fileRef = 17FDBD471FDF7DEB00A13252 /* httpConversion.m */; };
+		17FDBD521FDF7F0600A13252 /* BaseHttpAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 17FDBD4A1FDF7DEC00A13252 /* BaseHttpAPI.m */; };
+		17FDBD551FDF802F00A13252 /* AccountInfoOC.m in Sources */ = {isa = PBXBuildFile; fileRef = 17FDBD541FDF802500A13252 /* AccountInfoOC.m */; };
+		17FDBD561FDF840D00A13252 /* UIImage+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 17FDBD331FDF76A800A13252 /* UIImage+Additions.m */; };
+		17FDBD571FDF843200A13252 /* UIView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 17FDBD2B1FDF76A800A13252 /* UIView+Additions.m */; };
 		A34FC6D28229D4CE78BF3310 /* Pods_GotTop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51597A8083957B95060FC8CD /* Pods_GotTop.framework */; };
 		E8451F35DDD560402D7048E6 /* Pods_GotTopUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EED30554C1C3F0E95895F09 /* Pods_GotTopUITests.framework */; };
 /* End PBXBuildFile section */
@@ -92,6 +99,18 @@
 		17FDBD401FDF7A7F00A13252 /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		17FDBD411FDF7A7F00A13252 /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		17FDBD431FDF7A9A00A13252 /* LoginViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LoginViewController.storyboard; sourceTree = "<group>"; };
+		17FDBD471FDF7DEB00A13252 /* httpConversion.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = httpConversion.m; sourceTree = "<group>"; };
+		17FDBD481FDF7DEC00A13252 /* BaseHttpAPI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseHttpAPI.h; sourceTree = "<group>"; };
+		17FDBD491FDF7DEC00A13252 /* httpConversion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = httpConversion.h; sourceTree = "<group>"; };
+		17FDBD4A1FDF7DEC00A13252 /* BaseHttpAPI.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseHttpAPI.m; sourceTree = "<group>"; };
+		17FDBD4C1FDF7E1C00A13252 /* WebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		17FDBD4D1FDF7E1C00A13252 /* WebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		17FDBD4F1FDF7E2700A13252 /* WebViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = WebViewController.storyboard; sourceTree = "<group>"; };
+		17FDBD531FDF802500A13252 /* AccountInfoOC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AccountInfoOC.h; sourceTree = "<group>"; };
+		17FDBD541FDF802500A13252 /* AccountInfoOC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AccountInfoOC.m; sourceTree = "<group>"; };
+		17FDBD581FDF864900A13252 /* 2-登录-切图_35.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "2-登录-切图_35.png"; sourceTree = "<group>"; };
+		17FDBD591FDF864900A13252 /* 2-登录-切图_32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "2-登录-切图_32.png"; sourceTree = "<group>"; };
+		17FDBD5A1FDF864900A13252 /* 登录-切图_53.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "登录-切图_53.png"; sourceTree = "<group>"; };
 		1B867262E8CB4B8FA965E764 /* Pods-GotTopUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GotTopUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GotTopUITests/Pods-GotTopUITests.release.xcconfig"; sourceTree = "<group>"; };
 		51597A8083957B95060FC8CD /* Pods_GotTop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GotTop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		708787F323DCCA0550FEABEF /* Pods-GotTop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GotTop.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GotTop/Pods-GotTop.debug.xcconfig"; sourceTree = "<group>"; };
@@ -207,6 +226,8 @@
 		17FDBD141FDF756300A13252 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				17FDBD531FDF802500A13252 /* AccountInfoOC.h */,
+				17FDBD541FDF802500A13252 /* AccountInfoOC.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -231,6 +252,9 @@
 		17FDBD171FDF756300A13252 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				17FDBD591FDF864900A13252 /* 2-登录-切图_32.png */,
+				17FDBD581FDF864900A13252 /* 2-登录-切图_35.png */,
+				17FDBD5A1FDF864900A13252 /* 登录-切图_53.png */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -238,6 +262,7 @@
 		17FDBD181FDF756400A13252 /* Http */ = {
 			isa = PBXGroup;
 			children = (
+				17FDBD461FDF7DDE00A13252 /* http */,
 			);
 			path = Http;
 			sourceTree = "<group>";
@@ -245,6 +270,7 @@
 		17FDBD191FDF756400A13252 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				17FDBD4B1FDF7E0600A13252 /* Web */,
 				17FDBD3F1FDF7A5F00A13252 /* Login */,
 			);
 			path = ViewControllers;
@@ -326,6 +352,27 @@
 				17FDBD431FDF7A9A00A13252 /* LoginViewController.storyboard */,
 			);
 			path = Login;
+			sourceTree = "<group>";
+		};
+		17FDBD461FDF7DDE00A13252 /* http */ = {
+			isa = PBXGroup;
+			children = (
+				17FDBD481FDF7DEC00A13252 /* BaseHttpAPI.h */,
+				17FDBD4A1FDF7DEC00A13252 /* BaseHttpAPI.m */,
+				17FDBD491FDF7DEC00A13252 /* httpConversion.h */,
+				17FDBD471FDF7DEB00A13252 /* httpConversion.m */,
+			);
+			path = http;
+			sourceTree = "<group>";
+		};
+		17FDBD4B1FDF7E0600A13252 /* Web */ = {
+			isa = PBXGroup;
+			children = (
+				17FDBD4C1FDF7E1C00A13252 /* WebViewController.h */,
+				17FDBD4D1FDF7E1C00A13252 /* WebViewController.m */,
+				17FDBD4F1FDF7E2700A13252 /* WebViewController.storyboard */,
+			);
+			path = Web;
 			sourceTree = "<group>";
 		};
 		6BA320D103211921241FADB9 /* Pods */ = {
@@ -470,6 +517,7 @@
 				17FDBD441FDF7A9A00A13252 /* LoginViewController.storyboard in Resources */,
 				17FDBCEA1FDF6A6200A13252 /* Assets.xcassets in Resources */,
 				17FDBCE81FDF6A6200A13252 /* Main.storyboard in Resources */,
+				17FDBD501FDF7E2700A13252 /* WebViewController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -648,7 +696,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17FDBD571FDF843200A13252 /* UIView+Additions.m in Sources */,
+				17FDBD561FDF840D00A13252 /* UIImage+Additions.m in Sources */,
+				17FDBD551FDF802F00A13252 /* AccountInfoOC.m in Sources */,
+				17FDBD521FDF7F0600A13252 /* BaseHttpAPI.m in Sources */,
+				17FDBD511FDF7EFF00A13252 /* httpConversion.m in Sources */,
 				17FDBD3E1FDF7A0D00A13252 /* UINavigationBar+Awesome.m in Sources */,
+				17FDBD4E1FDF7E1C00A13252 /* WebViewController.m in Sources */,
 				17FDBD3D1FDF7A0400A13252 /* SMToastView.m in Sources */,
 				17FDBD3C1FDF7A0000A13252 /* UIView+Toast.m in Sources */,
 				17FDBD3B1FDF79FB00A13252 /* BaseOCViewController.m in Sources */,

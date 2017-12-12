@@ -19,7 +19,7 @@
 @end
 
 @implementation BaseOCViewController
-//+(UIViewController *)createViewController{
+//+(BaseOCViewController *)createViewController{
 //    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"QRCodeTwoViewController" bundle:nil];
 //    QRCodeTwoViewController *vc = [storyboard instantiateViewControllerWithIdentifier:@"QRCodeTwoViewController"];
 //    return vc;
@@ -29,13 +29,13 @@
     // Do any additional setup after loading the view.
 }
 -(void)viewWillAppear:(BOOL)animated{
-    [self.navigationController setNavigationBarHidden:NO animated:YES];
-    [self initReturnBtn];
-    [self defaultBackButtonItem];
-    [self initTitleBarColor];
+//    [self.navigationController setNavigationBarHidden:NO animated:YES];
+//    [self initReturnBtn];
+//    [self defaultBackButtonItem];
+//    [self initTitleBarColor];
 }
 -(void)viewWillDisappear:(BOOL)animated{
-    [self.navigationController setNavigationBarHidden:YES animated:YES];
+    //[self.navigationController setNavigationBarHidden:YES animated:YES];
 }
 -(void)initTitleBarColor{
     NSDictionary *dict = @{ NSUnderlineColorAttributeName: [UIColor whiteColor],NSFontAttributeName: [UIFont systemFontOfSize:20] };

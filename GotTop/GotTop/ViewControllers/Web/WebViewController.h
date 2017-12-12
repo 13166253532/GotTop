@@ -1,5 +1,5 @@
 //
-//  LoginViewController.h
+//  WebViewController.h
 //  GotTop
 //
 //  Created by xiejiangbo on 2017/12/12.
@@ -8,6 +8,6 @@
 
 #import "BaseOCViewController.h"
 
-@interface LoginViewController : BaseOCViewController
-+(LoginViewController *)createViewController;
+@interface WebViewController : BaseOCViewController
++(WebViewController *)createViewController;
 @end
