@@ -16,6 +16,13 @@
 		17FDBCF01FDF6A6200A13252 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 17FDBCEF1FDF6A6200A13252 /* main.m */; };
 		17FDBCFA1FDF6A6200A13252 /* GotTopTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 17FDBCF91FDF6A6200A13252 /* GotTopTests.m */; };
 		17FDBD051FDF6A6200A13252 /* GotTopUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 17FDBD041FDF6A6200A13252 /* GotTopUITests.m */; };
+		17FDBD3A1FDF774F00A13252 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 17FDBD361FDF773500A13252 /* MBProgressHUD.m */; };
+		17FDBD3B1FDF79FB00A13252 /* BaseOCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17FDBD1A1FDF758500A13252 /* BaseOCViewController.m */; };
+		17FDBD3C1FDF7A0000A13252 /* UIView+Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = 17FDBD221FDF75DE00A13252 /* UIView+Toast.m */; };
+		17FDBD3D1FDF7A0400A13252 /* SMToastView.m in Sources */ = {isa = PBXBuildFile; fileRef = 17FDBD201FDF75DE00A13252 /* SMToastView.m */; };
+		17FDBD3E1FDF7A0D00A13252 /* UINavigationBar+Awesome.m in Sources */ = {isa = PBXBuildFile; fileRef = 17FDBD251FDF76A800A13252 /* UINavigationBar+Awesome.m */; };
+		17FDBD421FDF7A7F00A13252 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17FDBD411FDF7A7F00A13252 /* LoginViewController.m */; };
+		17FDBD441FDF7A9A00A13252 /* LoginViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17FDBD431FDF7A9A00A13252 /* LoginViewController.storyboard */; };
 		A34FC6D28229D4CE78BF3310 /* Pods_GotTop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51597A8083957B95060FC8CD /* Pods_GotTop.framework */; };
 		E8451F35DDD560402D7048E6 /* Pods_GotTopUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EED30554C1C3F0E95895F09 /* Pods_GotTopUITests.framework */; };
 /* End PBXBuildFile section */
@@ -55,6 +62,36 @@
 		17FDBD001FDF6A6200A13252 /* GotTopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GotTopUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		17FDBD041FDF6A6200A13252 /* GotTopUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GotTopUITests.m; sourceTree = "<group>"; };
 		17FDBD061FDF6A6200A13252 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17FDBD121FDF738000A13252 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		17FDBD1A1FDF758500A13252 /* BaseOCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseOCViewController.m; sourceTree = "<group>"; };
+		17FDBD1B1FDF758500A13252 /* BaseOCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseOCViewController.h; sourceTree = "<group>"; };
+		17FDBD1F1FDF75DE00A13252 /* UIView+Toast.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Toast.h"; sourceTree = "<group>"; };
+		17FDBD201FDF75DE00A13252 /* SMToastView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMToastView.m; sourceTree = "<group>"; };
+		17FDBD211FDF75DE00A13252 /* SMToastView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SMToastView.h; sourceTree = "<group>"; };
+		17FDBD221FDF75DE00A13252 /* UIView+Toast.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Toast.m"; sourceTree = "<group>"; };
+		17FDBD241FDF76A800A13252 /* UINavigationBar+Awesome.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+Awesome.h"; sourceTree = "<group>"; };
+		17FDBD251FDF76A800A13252 /* UINavigationBar+Awesome.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+Awesome.m"; sourceTree = "<group>"; };
+		17FDBD271FDF76A800A13252 /* UIActionSheet+Blocks.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIActionSheet+Blocks.h"; sourceTree = "<group>"; };
+		17FDBD281FDF76A800A13252 /* NSString+Additions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+Additions.m"; sourceTree = "<group>"; };
+		17FDBD291FDF76A800A13252 /* UIColor+Additions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Additions.m"; sourceTree = "<group>"; };
+		17FDBD2A1FDF76A800A13252 /* UIImage+Additions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+Additions.h"; sourceTree = "<group>"; };
+		17FDBD2B1FDF76A800A13252 /* UIView+Additions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Additions.m"; sourceTree = "<group>"; };
+		17FDBD2C1FDF76A800A13252 /* UIButton+Additions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Additions.m"; sourceTree = "<group>"; };
+		17FDBD2D1FDF76A800A13252 /* UITableView+Additions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITableView+Additions.h"; sourceTree = "<group>"; };
+		17FDBD2E1FDF76A800A13252 /* UIActionSheet+Blocks.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIActionSheet+Blocks.m"; sourceTree = "<group>"; };
+		17FDBD2F1FDF76A800A13252 /* UIColor+Additions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+Additions.h"; sourceTree = "<group>"; };
+		17FDBD301FDF76A800A13252 /* NSString+Additions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+Additions.h"; sourceTree = "<group>"; };
+		17FDBD311FDF76A800A13252 /* UIButton+Additions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+Additions.h"; sourceTree = "<group>"; };
+		17FDBD321FDF76A800A13252 /* UIView+Additions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Additions.h"; sourceTree = "<group>"; };
+		17FDBD331FDF76A800A13252 /* UIImage+Additions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Additions.m"; sourceTree = "<group>"; };
+		17FDBD341FDF76A800A13252 /* UITableView+Additions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITableView+Additions.m"; sourceTree = "<group>"; };
+		17FDBD361FDF773500A13252 /* MBProgressHUD.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		17FDBD371FDF773500A13252 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		17FDBD381FDF773500A13252 /* MBProgressHUD.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		17FDBD391FDF773500A13252 /* README.mdown */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.mdown; sourceTree = "<group>"; };
+		17FDBD401FDF7A7F00A13252 /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		17FDBD411FDF7A7F00A13252 /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		17FDBD431FDF7A9A00A13252 /* LoginViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LoginViewController.storyboard; sourceTree = "<group>"; };
 		1B867262E8CB4B8FA965E764 /* Pods-GotTopUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GotTopUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GotTopUITests/Pods-GotTopUITests.release.xcconfig"; sourceTree = "<group>"; };
 		51597A8083957B95060FC8CD /* Pods_GotTop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GotTop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		708787F323DCCA0550FEABEF /* Pods-GotTop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GotTop.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GotTop/Pods-GotTop.debug.xcconfig"; sourceTree = "<group>"; };
@@ -118,10 +155,19 @@
 		17FDBCDF1FDF6A6200A13252 /* GotTop */ = {
 			isa = PBXGroup;
 			children = (
+				17FDBD1C1FDF75CB00A13252 /* SMFramework */,
+				17FDBD131FDF756300A13252 /* Base */,
+				17FDBD161FDF756300A13252 /* Config */,
+				17FDBD181FDF756400A13252 /* Http */,
+				17FDBD141FDF756300A13252 /* Model */,
+				17FDBD171FDF756300A13252 /* Resources */,
+				17FDBD151FDF756300A13252 /* ThirdParty */,
+				17FDBD191FDF756400A13252 /* ViewControllers */,
 				17FDBCE01FDF6A6200A13252 /* AppDelegate.h */,
 				17FDBCE11FDF6A6200A13252 /* AppDelegate.m */,
 				17FDBCE31FDF6A6200A13252 /* ViewController.h */,
 				17FDBCE41FDF6A6200A13252 /* ViewController.m */,
+				17FDBD121FDF738000A13252 /* PrefixHeader.pch */,
 				17FDBCE61FDF6A6200A13252 /* Main.storyboard */,
 				17FDBCE91FDF6A6200A13252 /* Assets.xcassets */,
 				17FDBCEB1FDF6A6200A13252 /* LaunchScreen.storyboard */,
@@ -147,6 +193,139 @@
 				17FDBD061FDF6A6200A13252 /* Info.plist */,
 			);
 			path = GotTopUITests;
+			sourceTree = "<group>";
+		};
+		17FDBD131FDF756300A13252 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				17FDBD1B1FDF758500A13252 /* BaseOCViewController.h */,
+				17FDBD1A1FDF758500A13252 /* BaseOCViewController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		17FDBD141FDF756300A13252 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		17FDBD151FDF756300A13252 /* ThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+				17FDBD351FDF773500A13252 /* MBProgressHUD */,
+			);
+			path = ThirdParty;
+			sourceTree = "<group>";
+		};
+		17FDBD161FDF756300A13252 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				17FDBD261FDF76A800A13252 /* Categories */,
+				17FDBD231FDF76A800A13252 /* Extension */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		17FDBD171FDF756300A13252 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		17FDBD181FDF756400A13252 /* Http */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Http;
+			sourceTree = "<group>";
+		};
+		17FDBD191FDF756400A13252 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				17FDBD3F1FDF7A5F00A13252 /* Login */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		17FDBD1C1FDF75CB00A13252 /* SMFramework */ = {
+			isa = PBXGroup;
+			children = (
+				17FDBD1D1FDF75DE00A13252 /* View */,
+			);
+			path = SMFramework;
+			sourceTree = "<group>";
+		};
+		17FDBD1D1FDF75DE00A13252 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				17FDBD1E1FDF75DE00A13252 /* ToastView */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		17FDBD1E1FDF75DE00A13252 /* ToastView */ = {
+			isa = PBXGroup;
+			children = (
+				17FDBD1F1FDF75DE00A13252 /* UIView+Toast.h */,
+				17FDBD221FDF75DE00A13252 /* UIView+Toast.m */,
+				17FDBD211FDF75DE00A13252 /* SMToastView.h */,
+				17FDBD201FDF75DE00A13252 /* SMToastView.m */,
+			);
+			path = ToastView;
+			sourceTree = "<group>";
+		};
+		17FDBD231FDF76A800A13252 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				17FDBD241FDF76A800A13252 /* UINavigationBar+Awesome.h */,
+				17FDBD251FDF76A800A13252 /* UINavigationBar+Awesome.m */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		17FDBD261FDF76A800A13252 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				17FDBD271FDF76A800A13252 /* UIActionSheet+Blocks.h */,
+				17FDBD281FDF76A800A13252 /* NSString+Additions.m */,
+				17FDBD291FDF76A800A13252 /* UIColor+Additions.m */,
+				17FDBD2A1FDF76A800A13252 /* UIImage+Additions.h */,
+				17FDBD2B1FDF76A800A13252 /* UIView+Additions.m */,
+				17FDBD2C1FDF76A800A13252 /* UIButton+Additions.m */,
+				17FDBD2D1FDF76A800A13252 /* UITableView+Additions.h */,
+				17FDBD2E1FDF76A800A13252 /* UIActionSheet+Blocks.m */,
+				17FDBD2F1FDF76A800A13252 /* UIColor+Additions.h */,
+				17FDBD301FDF76A800A13252 /* NSString+Additions.h */,
+				17FDBD311FDF76A800A13252 /* UIButton+Additions.h */,
+				17FDBD321FDF76A800A13252 /* UIView+Additions.h */,
+				17FDBD331FDF76A800A13252 /* UIImage+Additions.m */,
+				17FDBD341FDF76A800A13252 /* UITableView+Additions.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		17FDBD351FDF773500A13252 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				17FDBD361FDF773500A13252 /* MBProgressHUD.m */,
+				17FDBD371FDF773500A13252 /* LICENSE */,
+				17FDBD381FDF773500A13252 /* MBProgressHUD.h */,
+				17FDBD391FDF773500A13252 /* README.mdown */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		17FDBD3F1FDF7A5F00A13252 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				17FDBD401FDF7A7F00A13252 /* LoginViewController.h */,
+				17FDBD411FDF7A7F00A13252 /* LoginViewController.m */,
+				17FDBD431FDF7A9A00A13252 /* LoginViewController.storyboard */,
+			);
+			path = Login;
 			sourceTree = "<group>";
 		};
 		6BA320D103211921241FADB9 /* Pods */ = {
@@ -288,6 +467,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				17FDBCED1FDF6A6200A13252 /* LaunchScreen.storyboard in Resources */,
+				17FDBD441FDF7A9A00A13252 /* LoginViewController.storyboard in Resources */,
 				17FDBCEA1FDF6A6200A13252 /* Assets.xcassets in Resources */,
 				17FDBCE81FDF6A6200A13252 /* Main.storyboard in Resources */,
 			);
@@ -468,6 +648,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17FDBD3E1FDF7A0D00A13252 /* UINavigationBar+Awesome.m in Sources */,
+				17FDBD3D1FDF7A0400A13252 /* SMToastView.m in Sources */,
+				17FDBD3C1FDF7A0000A13252 /* UIView+Toast.m in Sources */,
+				17FDBD3B1FDF79FB00A13252 /* BaseOCViewController.m in Sources */,
+				17FDBD3A1FDF774F00A13252 /* MBProgressHUD.m in Sources */,
+				17FDBD421FDF7A7F00A13252 /* LoginViewController.m in Sources */,
 				17FDBCE51FDF6A6200A13252 /* ViewController.m in Sources */,
 				17FDBCF01FDF6A6200A13252 /* main.m in Sources */,
 				17FDBCE21FDF6A6200A13252 /* AppDelegate.m in Sources */,
@@ -635,9 +821,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/GotTop/PrefixHeader.pch";
 				INFOPLIST_FILE = GotTop/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = edf.GotTop;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ekingwin.GotTop;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -649,9 +837,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/GotTop/PrefixHeader.pch";
 				INFOPLIST_FILE = GotTop/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = edf.GotTop;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ekingwin.GotTop;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
