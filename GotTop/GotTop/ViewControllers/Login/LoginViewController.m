@@ -53,7 +53,7 @@ typedef enum {
     httpApi = [[httpConversion alloc]init];
     httpApi.delegate = self;
     self.companyArray = [NSMutableArray array];
-    syb1Version = TWO;
+    syb1Version = ONE;
     [self addtiteImageView];
     [self addtextFieldImage];
     [self addlineImage];

@@ -29,17 +29,43 @@
     // Do any additional setup after loading the view.
 }
 -(void)viewWillAppear:(BOOL)animated{
-//    [self.navigationController setNavigationBarHidden:NO animated:YES];
-//    [self initReturnBtn];
-//    [self defaultBackButtonItem];
-//    [self initTitleBarColor];
+    //[self.navigationController setNavigationBarHidden:NO animated:YES];
+    
 }
 -(void)viewWillDisappear:(BOOL)animated{
     //[self.navigationController setNavigationBarHidden:YES animated:YES];
 }
+//导航栏不遮挡
+-(void)isNavigationBarObstructed{
+    self.edgesForExtendedLayout = UIRectEdgeBottom;
+}
+// 设置状态栏颜色
+-(void)initSetStatusBarColor{
+    // 无需设置 plist
+    [self.navigationController navigationBar].barStyle = UIBarStyleBlack;
+    // 需要设置 plist
+    //View controller-based status bar appearance 设置为 NO
+    [UIApplication sharedApplication].statusBarStyle = UIStatusBarStyleLightContent;
+}
+// 设置导航栏 透明
+-(void)hideNavigationBar{
+    [self.navigationController navigationBar].shadowImage = [[UIImage alloc]init];
+    [[self.navigationController navigationBar] lt_setBackgroundColor:[UIColor clearColor]];
+}
+//恢复导航栏 透明
+-(void)displayNavigationBar{
+    [[self.navigationController navigationBar] lt_reset];
+}
+// 设置导航栏
+-(void)initTitleBar{
+    [self initReturnBtn];
+    [self defaultBackButtonItem];
+    [self initTitleBarColor];
+}
+
 -(void)initTitleBarColor{
-    NSDictionary *dict = @{ NSUnderlineColorAttributeName: [UIColor whiteColor],NSFontAttributeName: [UIFont systemFontOfSize:20] };
-    self.navigationController.navigationBar.titleTextAttributes = dict;
+    NSDictionary *dict = @{NSForegroundColorAttributeName: [UIColor whiteColor],NSFontAttributeName: [UIFont systemFontOfSize:20] };
+    [self.navigationController.navigationBar setTitleTextAttributes:dict];
 }
 -(void)initReturnBtn{
     UIBarButtonItem *leftN = [[UIBarButtonItem alloc]initWithImage:[UIImage imageNamed:@"return_image"] style:UIBarButtonItemStylePlain target:self action:@selector(arrowResponse)];
